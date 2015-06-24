@@ -8,11 +8,39 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
+        <script>
+        var defaultData = [{
+           "name": "Slappy the Frog",
+           "attendance": [true, true, false, true, true, true, false, false, true,
+              false, false, false
+           ]
+        }, {
+           "name": "Lilly the Lizard",
+           "attendance": [true, false, false, false, false, false, true, true,
+              false, true, true, true
+           ]
+        }, {
+           "name": "Paulrus the Walrus",
+           "attendance": [true, false, true, true, true, false, true, false,
+              false, true, false, true
+           ]
+        }, {
+           "name": "Gregory the Goat",
+           "attendance": [false, true, false, true, true, true, false, false,
+              true, false, false, true
+           ]
+        }, {
+           "name": "Adam the Anaconda",
+           "attendance": [false, false, true, true, true, true, false, false,
+              true, false, true, true
+           ]
+        }]
+        </script>
     </head>
     <body>
         <h1>Udacity Attendance</h1>
 
-        <table>
+        <table id="attendance">
             <thead>
                 <tr>
                     <th class="name-col">Student Name</th>
